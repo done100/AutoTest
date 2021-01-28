@@ -1,0 +1,6 @@
+[
+  {"include": "startup1.json"},
+  {"include": "startupGet.json"},
+  {"include": "startupWithHeader.json"},
+  {"include": "startupRedirect.json"}
+]
