@@ -2,5 +2,7 @@
   {"include": "startup1.json"},
   {"include": "startupGet.json"},
   {"include": "startupWithHeader.json"},
-  {"include": "startupRedirect.json"}
+  {"include": "startupRedirect.json"},
+  {"include": "dpyLogin.json"},
+  {"include": "dzpjLogin.json"}
 ]

@@ -1,5 +1,11 @@
 下载地址：https://repo1.maven.org/maven2/com/github/dreamhead/moco-runner/1.1.0/
+文档地址：https://github.com/dreamhead/moco/blob/master/moco-doc
 //jar包的路径  http服务监听的端口 配置文件路径
 java -jar ./moco-runner-1.1.0-standalone.jar http  -p 8090 -c  startup1.json
 //使用多个文件使用-g 命令config.json引入其他配置文件
-java -jar ./moco-runner-1.1.0-standalone.jar http -p 9090 -g config.json
+java -jar ./moco-runner-1.1.0-standalone.jar http -p 8090 -g config.json
+
+
+
+
+

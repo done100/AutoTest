@@ -1,0 +1,66 @@
+[
+
+  {
+    "description": "电票助手手机号登录失败form-data",
+    "request": {
+      "uri": "/loginOrRegistByPhoneError",
+      "method": "post",
+      "forms": {
+        "verifyCode": "0000",
+        "phone": "17777787845"
+      }
+    },
+    "response": {
+      "headers":{
+        "Content-Type":"application/json;charset=UTF-8"
+      },
+      "json": {
+        "resultCode": "-1",
+        "message": "验证码错误",
+        "data": []
+      }
+    }
+  },
+  {
+    "description": "测试同一请求地址，不同参数，返回结果不同",
+    "request": {
+      "uri": "/test",
+      "method": "post",
+      "json": {
+        "resultCode": "-3",
+        "data": []
+      }
+    },
+    "response": {
+      "headers":{
+        "Content-Type":"application/json;charset=UTF-8"
+      },
+      "json": {
+        "resultCode": "-1000001",
+        "message": "333",
+        "data": []
+      }
+    }
+  },
+  {
+    "description": "test",
+    "request": {
+      "uri": "/test",
+      "method": "post",
+      "json": {
+        "resultCode": "-2",
+        "data": []
+      }
+    },
+    "response": {
+      "headers":{
+        "Content-Type":"application/json;charset=UTF-8"
+      },
+      "json": {
+        "resultCode": "-1000001",
+        "message": "222",
+        "data": []
+      }
+    }
+  }
+]

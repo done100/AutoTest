@@ -1,0 +1,38 @@
+[
+  {
+    "description": "电票云首页登录",
+    "request": {
+      "uri": "/accountInvoice/invoiceReceiveList",
+      "method": "post",
+      "json": {
+        "pageNum": 1,
+        "pageSize": 15,
+        "invoiceCode": "",
+        "invoiceNumber": "",
+        "reimbursementState": "",
+        "payerName": "",
+        "invoiceingPartyName": "",
+        "invoiceType": "",
+        "payerIdCard": "",
+        "checkStartDate": "",
+        "checkEndDate": ""
+      }
+    },
+    "response": {
+      "headers": {
+        "Content-Type": "application/json;charset=UTF-8"
+      },
+      "json": {
+        "rtnCode": 200,
+        "msg": "success",
+        "data": {
+          "totalCount": 0,
+          "totalPage": 0,
+          "data": null,
+          "obj": null
+        },
+        "object": null
+      }
+    }
+  }
+]
