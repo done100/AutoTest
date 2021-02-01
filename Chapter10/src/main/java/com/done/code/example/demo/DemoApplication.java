@@ -1,4 +1,4 @@
-package com.done.code.com.example.demo;
+package com.done.code.example.demo;
 
 
 import org.springframework.boot.SpringApplication;
